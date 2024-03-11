@@ -37,11 +37,11 @@ Luego, selecionamos la opción *Usar un hard disk existente* y en la opción <im
 
 <img src="./Figures_teaching/Pasted image 20240310233341.png" alt="drawing" width="600"/>
 
-La configuración final de nuestra *Imagen* (máquina virtual) es la siguiente:
+La configuración resumida de nuestra *Imagen* (máquina virtual) es la siguiente:
 
 <img src="./Figures_teaching/Pasted image 20240310233956.png" alt="drawing" width="800"/>
 
-Para ingresar, hacemos doble clic <img src="./Figures_teaching/Pasted image 20240310234930.png" alt="drawing" width="150"/>, y colocamos la contraseña que guardamos antes. 
+Para ingresar, hacemos doble clic en <img src="./Figures_teaching/Pasted image 20240310234930.png" alt="drawing" width="150"/>. Una vez que Ubuntu hay inicializado, colocamos la contraseña de usuario que guardamos antes. 
 
 <img src="./Figures_teaching/Pasted image 20240310235610.png" alt="drawing" width="800"/>
 
