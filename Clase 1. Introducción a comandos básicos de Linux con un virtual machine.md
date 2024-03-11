@@ -63,7 +63,7 @@ Para instalar git, usamos el comando `sudo apt install git`. La instalación exi
 
 <img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="600"/>
 
-Finalmente instalaremos **htop** (usando el comando `sudo apt install htop`) que nos permite ver el estado del sistema. Es el equivalente al control manager de Windows para ver que procesos están corriendo, el uso de los procesadores y memoria RAM, etc. Para salir, damos a **Ctrl + C**
+Finalmente instalaremos **htop** (usando el comando `sudo apt install htop`) que nos permite ver el estado del sistema. Es el equivalente al control manager de Windows para ver que procesos están corriendo, el uso de los procesadores y memoria RAM, etc. Para salir, usamos la combinación **Ctrl + C**.
 
 <img src="./Figures_teaching/Pasted image 20240311002131.png" alt="drawing" width="800"/>
 
