@@ -8,7 +8,7 @@ Luego de descargar el instalador, ejecutarlo y usar las instrucciones por defect
 
 <img src="./Figures_teaching/Pasted image 20240310223959.png" alt="drawing" width="100"/>
 
-Una vez instalada la aplicación, accedemos al **VirtualBox manager** dónde podemos organizar diferentes máquinas virtuales. 
+Una vez instalada la aplicación, accedemos al **VirtualBox Manager** dónde podemos organizar diferentes máquinas virtuales. 
 
 <img src="./Figures_teaching/Pasted image 20240310224335.png" alt="drawing" width="800"/>
 
