@@ -25,7 +25,7 @@ Luego, regresamos al **VirtualBox Manager** y hacemos clic en la opción <img sr
 
 <img src="./Figures_teaching/Pasted image 20240310230900.png" alt="drawing" width="600"/>
 
-Luego, debemos configurar el hardware en base a nuestro hardware local. Para ello damos memoria RAM y número de procesadores necesarios en base a nuestros requerimientos. Para esta sesión, indicamos (alrededor de) 4 GB de memoria RAM y 4 procesadores (para poder realizar aplicaciones en paralelo). Debemos tomar en cuenta que la configuración de nuestra máquina virtual puede modificarse pero es más complejo hacerlo una vez creada. 
+Luego, debemos configurar el hardware en base a nuestro hardware local disponible y a nuestros requerimientos. Para esta sesión, indicamos (alrededor de) 4 GB de memoria RAM y 4 procesadores (para poder realizar aplicaciones en paralelo). Debemos tomar en cuenta que la configuración de nuestra máquina virtual puede modificarse pero es más complejo hacerlo una vez creada. 
 
 <img src="./Figures_teaching/Pasted image 20240310231314.png" alt="drawing" width="600"/>
 
