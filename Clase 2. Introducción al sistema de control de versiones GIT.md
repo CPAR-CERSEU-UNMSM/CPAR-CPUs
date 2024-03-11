@@ -8,7 +8,7 @@ Sistema que hace seguimiento a cada modificación o cambio en un código, algori
 
 ## Esquema básico de un sistema GIT
 
-Git consiste en uno o varios **repositorios locales** y **remotos**. Los **repositorios locales** son personales y los tenemos en nuestra computadora personal por ejemplo. El trabajo aquí puede ser offline pero debe estar sincronizado al repositorio remoto. El o los **repositorios remotos** contienen el estado del arte o la versión actualizada del repositorio y están guardados en la nube en plataformas como *gitlab*, *github* o *Bitbucket*.
+Git consiste en uno o varios **repositorios locales** y **remotos**. Los **repositorios locales** son personales y los tenemos en nuestra computadora personal por ejemplo. El trabajo aquí puede ser offline pero debe estar sincronizado al repositorio remoto. El o los **repositorios remotos** contienen el estado del arte o la versión actualizada del repositorio y están guardados en la nube en plataformas como *Gitlab*, *Github* o *Bitbucket*.
 
 <img src="./Figures_teaching/Pasted image 20240309233852.png" alt="drawing" width="700"/>
 
