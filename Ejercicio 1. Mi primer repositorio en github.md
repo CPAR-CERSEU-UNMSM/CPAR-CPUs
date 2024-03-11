@@ -4,7 +4,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 1. Verificar si se tiene instalado GIT. Para ello, ir a la línea de comando en su sistema operativo y escribir: `git --version`
 
-<img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="400"/>
 
 2. En caso no esté instalado, usar el comando `sudo apt install git`
 3. Una vez que se tiene GIT instalado, crear una carpeta dónde se desee almacenar el projecto con la función `mkdir proyecto_1`.
@@ -22,9 +22,9 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 13. Colocar el nombre, una descripción, elige hacerlo público y sin README y crear el repositorio.
 14. Una vez creado, conectarlo al repositorio local siguiendo los pasos indicados en la misma web. Primero, configurar el repositorio local para conectarse al repositorio remoto:
-<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="1200"/>
 
 15. Seguir lo pasos para connectar ambos repositorios
-<img src="./Figures_teaching/Pasted image 20240310001937.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310001937.png" alt="drawing" width="1200"/>
 
 16. Finalmente, utilizar `git push`  para sincronizar los cambios en ambos repositorios y revisar el status con `git status`. **Qué diferencias hay ahora?**
