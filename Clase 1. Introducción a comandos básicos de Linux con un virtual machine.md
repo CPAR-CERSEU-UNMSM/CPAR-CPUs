@@ -29,7 +29,7 @@ Luego, debemos configurar el hardware en base a nuestro hardware local disponibl
 
 <img src="./Figures_teaching/Pasted image 20240310231314.png" alt="drawing" width="600"/>
 
-Luego tenemos que definir el tamaño de nuestro disco duro virtual. El tamaño por defecto es de 25 GB y es un tamaño adecuado para nuestra sesión. Debemos tomar en cuenta que el valor que pongamos será consumido de nuestro disco duro local. 
+Luego tenemos que definir el tamaño de nuestro disco duro virtual. Para la _Imagen vdi_ ue hemos descargado, el tamaño por defecto es de 25 GB, el cual es adecuado. Debemos tomar en cuenta que el valor que pongamos será consumido de nuestro disco duro local. 
 
 <img src="./Figures_teaching/Pasted image 20240310232825.png" alt="drawing" width="600"/>
 
