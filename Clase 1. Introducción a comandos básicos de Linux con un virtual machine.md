@@ -12,7 +12,7 @@ Una vez instalada la aplicación, accedemos al **VirtualBox Manager** dónde pod
 
 <img src="./Figures_teaching/Pasted image 20240310224335.png" alt="drawing" width="800"/>
 
-Por el momento no tenemos todavía Ubuntu (Linux) como sistema operativo y debemos instalarlo. Para ello tenemos que crear algo denominado *Imagen vdi* que tiene la configuración de nuestro sistema operativo Ubuntu. Nosotros podemos descargar cada elemento o dependencia por separado, pero también podemos instalar *Imágenes* ya predeterminadas y ajustarlas a nuestras necesidades. Esa será nuestra siguiente acción.  Para ello iremos a la siguiente web [osboxes](https://www.osboxes.org/ubuntu/#ubuntu-22-04-jammy-vbox) y descargamos la versión "Ubuntu 22.04 Jammy Jellyfish":
+Por el momento no tenemos todavía ninguna máquina virtual, y en consecuencia tampoco Ubuntu (Linux) como sistema operativo. Para tener una máquina virtual, tenemos que crear algo denominado *Imagen vdi* que tiene la configuración de nuestro sistema operativo Ubuntu. Nosotros podemos descargar cada elemento o dependencia por separado, pero también podemos instalar *Imágenes* ya predeterminadas y ajustarlas a nuestras necesidades. Esa será nuestra siguiente acción.  Para ello iremos a la siguiente web [osboxes](https://www.osboxes.org/ubuntu/#ubuntu-22-04-jammy-vbox) y descargamos la versión "Ubuntu 22.04 Jammy Jellyfish":
 
 <img src="./Figures_teaching/Pasted image 20240310225509.png" alt="drawing" width="500"/>
 
