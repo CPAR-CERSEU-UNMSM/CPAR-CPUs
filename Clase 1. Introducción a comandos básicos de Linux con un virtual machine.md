@@ -49,7 +49,7 @@ Una vez dentro, tenemos una ventana muy similar a una ventana de Windows con las
 
 <img src="./Figures_teaching/Pasted image 20240311000205.png" alt="drawing" width="800"/>
 
-Para esta sesión, hay algunas aplicaciones que necesitamos, por ejemplo, el sistema de control de versiones GIT y el compilador **g++**. Si probamos directamente en la línea de comando, el resultado nos arrojará un error y esto debido a que estas aplicaciones no están instaladas.
+Para esta sesión, hay algunas aplicaciones que necesitamos. Por ejemplo, el compilador para C++ llamado **g++** y el sistema de control de versiones llamado **git**. Si probamos cualquiera de estos en la línea de comando, nos arrojará un error. Esto debido a que estas aplicaciones no están instaladas.
 
 <img src="./Figures_teaching/Pasted image 20240311000549.png" alt="drawing" width="800"/>
 
