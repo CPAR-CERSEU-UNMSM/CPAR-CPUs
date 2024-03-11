@@ -24,12 +24,12 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 8. Los cambios elaborados sólo se han hecho de manera local, para poder guardarlos en la nube o en un repositorio remoto, debemos crear una cuenta en [GitHub](https://github.com) o [GitLab](https://gitlab.com/users/sign_in) o [Bitbucket](https://bitbucket.org).
 9. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto1*. Elige un repositorio en blanco y algo similar a la figura de abajo se mostrará:
 
-<img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="900"/>
+<img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="800"/>
 
 11. Colocar el nombre, una descripción, elige hacerlo público, y luego sin README. Finalmente crear el repositorio.
 12. Una vez creado, conectarlo al repositorio local siguiendo los pasos indicados en la misma web. Primero, configurar el repositorio local para conectarse al repositorio remoto:
 
-<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="600"/>
+<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="700"/>
 
 13. Seguir lo pasos para connectar ambos repositorios
 
