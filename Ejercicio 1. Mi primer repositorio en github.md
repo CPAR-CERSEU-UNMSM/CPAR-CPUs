@@ -22,7 +22,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 6. Luego de usar el comando `git add`, volver a revisar el estado del repositorio con `git status`. Algo ha cambiado, **¿puede explicar qué ha cambiado?** **Dentro del flujo de trabajo de git, ¿dónde se encuentra el archivo text1.txt?**. (Tip: las opciones son: working tree, área de preparación o repositorio local)
 7. Empezar a escribir la historia de tu repositorio tomando una foto instantánea de este cambio. Para eso usar el comando `git commit -m "MENSAJE"`. Recuerda que mientras más explicito sea el MENSAJE, mejor será la historia del repostorio. Una vez hecho esto, verificar el status del repositorio  con `git status`. **¿Algo ha cambiado? Describa sus observaciones. ¿Están todos los componentes de git al día?**
 8. Los cambios elaborados sólo se han hecho de manera local, para poder guardarlos en la nube o en un repositorio remoto, debemos crear una cuenta en [GitHub](https://github.com) o [GitLab](https://gitlab.com/users/sign_in) o [Bitbucket](https://bitbucket.org).
-9. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto1*. Elige un repositorio en blanco (abajo un ejemplo de como luce en GitHub). Para GitLab, elige el repositorio en blanco y algo similar a la figura de abajo se mostrará:
+9. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto1*. Elige un repositorio en blanco y algo similar a la figura de abajo se mostrará:
 
 <img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="400"/>
 
