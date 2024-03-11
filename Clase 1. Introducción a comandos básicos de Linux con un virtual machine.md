@@ -55,15 +55,15 @@ Para esta sesión, hay algunas aplicaciones que necesitamos. Por ejemplo, el com
 
 Para instalar estas aplicaciones, primero vamos a usar el comando `sudo apt update` para poder actualizar la lista de repositorios de dónde Ubuntu instalará los programas o aplicaciones que necesitemos. `sudo` significa **super user** y `apt` es el software manager para la instalación de software. 
 
-Para poder instalar el compilador, usamos el comando `sudo apt install build-essential`. 
+Para poder instalar el compilador, usamos el comando `sudo apt install build-essential`. La instalación exitosa se puede comprobar de la siguiente manera:
 
 <img src="./Figures_teaching/Pasted image 20240311001617.png" alt="drawing" width="800"/>
 
-Para instalar git, usamos el comando `sudo apt install git`
+Para instalar git, usamos el comando `sudo apt install git`. La instalación exitosa se puede comprobar de la siguiente manera:
 
 <img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="600"/>
 
-Finalmente instalaremos **htop** (`sudo apt install htop`) que nos permite ver el estado del sistema. Es el equivalente al control manager de Windows para ver que procesos están corriendo, el uso de los procesadores y memoria RAM, etc. Para salir, damos a **Ctrl + C**
+Finalmente instalaremos **htop** (usando el comando `sudo apt install htop`) que nos permite ver el estado del sistema. Es el equivalente al control manager de Windows para ver que procesos están corriendo, el uso de los procesadores y memoria RAM, etc. Para salir, damos a **Ctrl + C**
 
 <img src="./Figures_teaching/Pasted image 20240311002131.png" alt="drawing" width="800"/>
 
