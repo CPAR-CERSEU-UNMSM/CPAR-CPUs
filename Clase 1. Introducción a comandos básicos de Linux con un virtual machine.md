@@ -41,7 +41,7 @@ La configuración resumida de nuestra *Imagen* (máquina virtual) es la siguient
 
 <img src="./Figures_teaching/Pasted image 20240310233956.png" alt="drawing" width="800"/>
 
-Para ingresar, hacemos doble clic en <img src="./Figures_teaching/Pasted image 20240310234930.png" alt="drawing" width="150"/>. Una vez que Ubuntu hay inicializado, colocamos la contraseña de usuario que guardamos antes. 
+Para utilizar la máquina virtual, hacemos doble clic en <img src="./Figures_teaching/Pasted image 20240310234930.png" alt="drawing" width="150"/>. Una vez que haya inicializado Ubuntu, colocamos la contraseña de usuario que guardamos antes. 
 
 <img src="./Figures_teaching/Pasted image 20240310235610.png" alt="drawing" width="800"/>
 
