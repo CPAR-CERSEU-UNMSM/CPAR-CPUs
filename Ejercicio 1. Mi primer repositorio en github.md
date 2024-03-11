@@ -26,7 +26,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 <img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="600"/>
 
-11. Colocar el nombre, una descripción, elige hacerlo público y sin README y crear el repositorio.
+11. Colocar el nombre, una descripción, elige hacerlo público, y luego sin README. Finalmente crear el repositorio.
 12. Una vez creado, conectarlo al repositorio local siguiendo los pasos indicados en la misma web. Primero, configurar el repositorio local para conectarse al repositorio remoto:
 
 <img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="400"/>
