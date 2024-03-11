@@ -4,7 +4,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 1. Verificar si se tiene instalado GIT. Para ello, ir a la línea de comando en su sistema operativo y escribir: `git --version`
 
-![[Pasted image 20240311001742.png]]
+<img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="800"/>
 
 2. En caso no esté instalado, usar el comando `sudo apt install git`
 3. Una vez que se tiene GIT instalado, crear una carpeta dónde se desee almacenar el projecto con la función `mkdir proyecto_1`.
