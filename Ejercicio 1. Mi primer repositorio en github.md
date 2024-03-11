@@ -1,4 +1,4 @@
-# Ejercicio 1. Mi primer repositorio en github
+# Ejercicio 1. Mi primer repositorio en GitHub
 
 En este ejercicio aprenderemos los pasos básicos del sistema de control de versiones GIT.
 
