@@ -4,13 +4,13 @@
 
 Sistema que hace seguimiento a cada modificación o cambio en un código, algoritmo, servidor de IT, website, documento. Un ejemplo de control de versiones es **GIT** o **google docs**.
 
-<img src="./Figures_teaching/Pasted image 20240309233350.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240309233350.png" alt="drawing" width="400"/>
 
 ## Esquema básico de un sistema GIT
 
 Git consiste en uno o varios **repositorios locales** y **remotos**. Los **repositorios locales** son personales y los tenemos en nuestra computadora personal por ejemplo. El trabajo aquí puede ser offline pero debe estar sincronizado al repositorio remoto. El o los **repositorios remotos** contienen el estado del arte o la versión actualizada del repositorio y están guardados en la nube en plataformas como *gitlab*, *github* o *Bitbucket*.
 
-<img src="./Figures_teaching/Pasted image 20240309233852.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240309233852.png" alt="drawing" width="700"/>
 
 ## Locaciones de GIT
 
@@ -20,7 +20,7 @@ Para manejar GIT, hay algunos componentes importantes que debemos conocer y nos 
 - Luego, todos los commits de un proyecto se almacenan en el **repositorio local** que esta en nuestra computadora local y estos tres elementos forman parte del **área personal** del proyecto.
 - Finalmente, el almacenamiento final del proyecto se realiza en la nube o algun **repositorio remoto** como **GitLab** o **GitHub** que se considera que contiene el proyecto completo y es nuestra fuente de consulta del proyecto en caso se necesite de una referencia. La idea es tener nuestro repositorio local y global sincronizado.
 
-<img src="./Figures_teaching/Pasted image 20240309234800.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240309234800.png" alt="drawing" width="700"/>
 
 
 ## Comandos claves en git
