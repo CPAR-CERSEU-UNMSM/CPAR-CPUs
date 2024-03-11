@@ -21,7 +21,7 @@ En la opción *Info*, guardar el usuario y contraseña que nos servirá para acc
 <img src="./Figures_teaching/Pasted image 20240310225558.png" alt="drawing" width="500"/>
 
 
-Luego, regresamos al **Virtualbox manager** y hacemos clic en la opción new <img src="./Figures_teaching/Pasted image 20240310230541.png" alt="drawing" width="70"/>. Ahí, colocamos un nombre a nuestra *Imagen*, el tipo de sistema operativo y la versión así como se muestra en la figura:
+Luego, regresamos al **VirtualBox Manager** y hacemos clic en la opción new <img src="./Figures_teaching/Pasted image 20240310230541.png" alt="drawing" width="70"/>. Ahí, colocamos un nombre a nuestra *Imagen*, el tipo de sistema operativo y la versión así como se muestra en la figura:
 
 <img src="./Figures_teaching/Pasted image 20240310230900.png" alt="drawing" width="600"/>
 
