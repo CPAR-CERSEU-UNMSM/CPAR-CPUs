@@ -18,7 +18,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 11. Los cambios elaborados solo se han hecho de manera local, para poder guardarlos en la nube o en un repositorio remoto, debemos crear una cuenta en [git hub](https://github.com/) o [git lab](https://gitlab.com/users/sign_in) o [bitbucket](https://bitbucket.org/).
 12. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto_1*. Elige un repositorio en blanco (abajo un ejemplo de como luce en github). Para gitlab, elige el repositorio en blanco y algo similar a la figura de abajo se mostrará:
 
-![[Pasted image 20240310001819.png]]
+<img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="800"/>
 
 13. Colocar el nombre, una descripción, elige hacerlo público y sin README y crear el repositorio.
 14. Una vez creado, conectarlo al repositorio local siguiendo los pasos indicados en la misma web. Primero, configurar el repositorio local para conectarse al repositorio remoto:
