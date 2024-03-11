@@ -2,7 +2,8 @@
 
 El sistema operativo en el cual vamos a trabajar preferentemente es Linux. En caso no se tenga Linux como sistema operativo, vamos a instalar una máquina virtual (**Virtual Machine de Ubuntu**). Primero debemos instalar un Oracle VM Virtual Box Manager. Para ello, ir a la siguiente web de [virtual box](https://www.virtualbox.org/wiki/Downloads) y descargar el instalador segun el sistema operativo que se tenga (mac o windows):
 
-![[Pasted image 20240310223840.png]]
+[alt text](./Figures_teaching/Pasted image 20240310223840.png)
+
 Luego de descargar el instalador, ejecutarlo y usar las instrucciones by default. 
 
 ![[Pasted image 20240310223959.png]]
