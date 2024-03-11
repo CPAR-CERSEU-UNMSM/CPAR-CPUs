@@ -53,11 +53,13 @@ Para esta sesión, hay algunas aplicaciones que necesitamos. Por ejemplo, el com
 
 <img src="./Figures_teaching/Pasted image 20240311000549.png" alt="drawing" width="800"/>
 
-Para instalar estas aplicaciones, vamos a usar las función `sudo apt update` primero para poder actualizar la lista de repositorios de dónde Ubuntu instalará los programas o aplicaciones que requiramos. `sudo` significa **super user** y `apt` es el software manager para la instalación de software. Para poder instalar el compilador, usamos el comando `sudo apt install build-essential`. 
+Para instalar estas aplicaciones, primero vamos a usar el comando `sudo apt update` para poder actualizar la lista de repositorios de dónde Ubuntu instalará los programas o aplicaciones que necesitemos. `sudo` significa **super user** y `apt` es el software manager para la instalación de software. 
+
+Para poder instalar el compilador, usamos el comando `sudo apt install build-essential`. 
 
 <img src="./Figures_teaching/Pasted image 20240311001617.png" alt="drawing" width="800"/>
 
-Para instalar GIT, usamos el comando `sudo apt install git`
+Para instalar git, usamos el comando `sudo apt install git`
 
 <img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="600"/>
 
