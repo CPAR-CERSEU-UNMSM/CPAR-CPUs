@@ -33,7 +33,7 @@ Luego tenemos que definir el tamaño de nuestro disco duro virtual. El tamaño p
 
 <img src="./Figures_teaching/Pasted image 20240310232825.png" alt="drawing" width="600"/>
 
-Luego, selecionamos la opción *Usar un hard disk existente* y en la opción <img src="./Figures_teaching/Pasted image 20240310233240.png" alt="drawing" width="50"/> añadimos la *Imagen* descargada, luego hacemos clic en *Choose*. Cómo se puede observar, el espacio virtual máximo posible es de 500 GB, pero el espacio real ocupado es de apenas 8 GB (aproximádamente). Luego *Next* y luego *Finish*:
+Luego, selecionamos la opción *Usar un hard disk existente* y en la opción <img src="./Figures_teaching/Pasted image 20240310233240.png" alt="drawing" width="50"/> añadimos la *Imagen* descargada, luego hacemos clic en *Choose*. Cómo se puede observar, el espacio virtual máximo posible es de 500 GB, pero el espacio real ocupado es de apenas 8 GB (aproximádamente). Luego hacer clic en *Next* y luego *Finish*:
 
 <img src="./Figures_teaching/Pasted image 20240310233341.png" alt="drawing" width="600"/>
 
