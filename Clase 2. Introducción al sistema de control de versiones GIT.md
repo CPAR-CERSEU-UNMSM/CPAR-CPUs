@@ -17,7 +17,7 @@ Git consiste en uno o varios **repositorios locales** y **remotos**. Los **repos
 Para manejar GIT, hay algunos componentes importantes que debemos conocer y nos permitirán entender mejor cómo funciona GIT. 
 - El primer elemento es el llamado **working tree**, es el ambiente donde nosotros trabajamos y tenemos los archivos que vamos a guardar mediante el comando _commit_. 
 - Una vez que tenemos idea de lo que vamos a guardar, pasamos al **área de preparación** que incluye todos los archivos a ser incluidos en el _commit_. Por ejemplo, algunas veces modificamos dos archivos que están relacionados y los queremos guardar juntos, entonces pensaremos en un commit que incluya los dos archivos y no dos commits por separado. 
-- Luego, todos los commits de un proyecto se almacenan en el **repositorio local** que esta en nuestra computadora local y estos tres elementos forman parte del **área personal** del proyecto.
+- Luego, todos los commits de un proyecto se almacenan en el **repositorio local** que está en nuestra computadora local y estos tres elementos forman parte del **área personal** del proyecto.
 - Finalmente, el almacenamiento final del proyecto se realiza en la nube o algun **repositorio remoto** como **GitLab** o **GitHub** que se considera que contiene el proyecto completo y es nuestra fuente de consulta del proyecto en caso se necesite de una referencia. La idea es tener nuestro repositorio local y global sincronizado.
 
 <img src="./Figures_teaching/Pasted image 20240309234800.png" alt="drawing" width="700"/>
