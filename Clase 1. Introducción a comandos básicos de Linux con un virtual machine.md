@@ -14,28 +14,28 @@ Una vez instalada la aplicación, accedemos al **Virtualbox manager** dónde pod
 
 Por el momento no tenemos todavía Ubunto (Linux) como sistema operativo y debemos instalarlo. Para ello tenemos que crear algo denominado *Imagen vdi* que tiene la configuración de nuestro sistema operativo Ubuntu. Nosotros podemos descargar cada elemento o dependencia por separado, pero también podemos instalar *Imagenes* ya predeterminadas y ajustarlas a nuestras necesidades. Esa será nuestra siguiente acción.  Para ello iremos a la siguiente web [osboxes](https://www.osboxes.org/ubuntu/#ubuntu-22-04-jammy-vbox) y descargamos la versión "Ubuntu 22.04 Jammy Jellyfish":
 
-<img src="./Figures_teaching/Pasted image 20240310225509.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310225509.png" alt="drawing" width="500"/>
 
 En la opción *Info*, guardar el usuario y contraseña que nos servirá para acceder a nuestra *Imagen* una vez instalada y configurada. 
 
-<img src="./Figures_teaching/Pasted image 20240310225558.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310225558.png" alt="drawing" width="500"/>
 
 
 Luego, regresamos al **Virtualbox manager** y hacemos clic en la opción new ![[Pasted image 20240310230541.png]]. Ahí, colocamos un nombre a nuestra *Imagen*, el tipo de sistema operativo y la versión así como se muestra en la figura:
 
-<img src="./Figures_teaching/Pasted image 20240310230900.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310230900.png" alt="drawing" width="600"/>
 
 Luego, debemos configurar el hardware en base a nuestro hardware local. Para ello damos memoria RAM y número de procesadores necesarios en base a nuestros requerimientos. Para esta sesión, seleccionaremos 4 MG de memoria RAM y 4 procesadores para poder realizar aplicaciones en paralelo. Debemos tomar en cuenta que la configuración de nuestro virtual machine puede modificarse pero es más complejo hacerlo una vez creada. 
 
-<img src="./Figures_teaching/Pasted image 20240310231314.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310231314.png" alt="drawing" width="600"/>
 
 Luego tenemos que definir el tamaño de nuestro disco duro virtual. El tamaño por default es de 25 GB y es un tamaño adecuado para nuestra sesión. Debemos tomar en cuenta que el valor que pongamos será consumido de nuestro disco duro local. 
 
-<img src="./Figures_teaching/Pasted image 20240310232825.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310232825.png" alt="drawing" width="600"/>
 
 Luego, selecionamos la opción *usar un hard disk existente* y en la opción add ![[Pasted image 20240310233240.png]] y añadimos la *Imagen* descargada y hacemos clic en *choose*. Cómo se puede observar, el espacio virtual ocupado es de 500 GB pero ese espacio es solo virtual y el espacio real ocupado es solo 8 GB. Luego *next* y luego *finish*:
 
-<img src="./Figures_teaching/Pasted image 20240310233341.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240310233341.png" alt="drawing" width="600"/>
 
 La configuración final de nuestra *Imagen* (virtual machine) es la siguiente:
 
@@ -59,7 +59,7 @@ Para instalar estas aplicaciones, vamos a usar las función `sudo apt update` pr
 
 Para instalar GIT, usamos el comando `sudo apt install git`
 
-<img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240311001742.png" alt="drawing" width="600"/>
 
 Finalmente instalaremos **htop** (`sudo apt install htop`) que nos permite ver el sistema y es el equivalente al control manager de Windows para ver que procesos están corriendo y el uso de memoria RAM por parte de los procesadores, etc. Para salir, damos a **Ctrl + C**
 
