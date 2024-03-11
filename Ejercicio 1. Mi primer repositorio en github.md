@@ -17,7 +17,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 <img src="./Figures_teaching/Pasted image 20240311112052.png" alt="drawing" width="400"/>
 
-6. Volver a revisar el estado de tu repostorio. Qué observamos? Ha cambiado algo con respecto al estado anterior? Describa sus observaciones
+6. Volver a revisar el estado de tu repostorio. **¿Qué observamos? ¿Ha cambiado algo con respecto al estado anterior?** Describa sus observaciones
 5. Añadir el archivo al área de preparación suponiendo que ya queremos guardar esos cambios en el archivo de texto *text1.txt*. Para eso, usa el comando `git add text1.txt` (añade solo el archivo *text1.txt*) o `git add .` (añade todos los archivos creados). Ambos comandos para este caso deberían hacer lo mismo. **¿Puede explicar por qué?**
 6. Luego de usar el comando `git add`, volver a revisar el estado del repositorio con `git status`. Algo ha cambiado, **¿puede explicar qué ha cambiado?** **Dentro del flujo de trabajo de git, dónde se encuentra el archivo text1.txt**. (Tipp: Opciones son, working tree, área de preparación o repositorio local)
 7. Empezar a escribir la historia de tu repositorio tomando una foto instantánea de este cambio. Para eso usar el comando `git commit -m "MENSAJE"`. Recuerda que mientras más explicito sea el MENSAJE, mejor será la historia deL repostorio. Una vez hecho esto, verificaR el status del repositorio  con `git status`. **Algo ha cambiado? Describa sus observaciones. ¿Están todos los componentes de git al día?**
