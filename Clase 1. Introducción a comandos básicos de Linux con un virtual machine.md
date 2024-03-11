@@ -1,4 +1,4 @@
-# Clase 1. Introducción a comandos básicos de Linux con un virtual machine
+# Clase 1. Introducción a comandos básicos de Linux con una máquina virtual
 
 El sistema operativo en el cual vamos a trabajar es Linux. En caso no se tenga Linux como sistema operativo, vamos a instalar una máquina virtual (**Virtual Machine**) basada en la distribución Ubuntu. Primero debemos instalar **VirtualBox Manager**. Para ello, ir a la siguiente web de [virtual box](https://www.virtualbox.org/wiki/Downloads) y descargar el instalador segun el sistema operativo que se tenga (Windows o MacOS):
 
