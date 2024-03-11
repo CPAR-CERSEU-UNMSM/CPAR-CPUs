@@ -30,7 +30,7 @@ Para manejar GIT, hay algunos componentes importantes que debemos conocer y nos 
 4. `git commit`: crea un foto instantánea de nuestro repositorio en un momento específico. Con un commit, nosotros guardamos la historia del repositorio. Lo ideal es hacer commits de lo que uno quiera guardar y de manera frecuente
 5. `git push`: guardar lo creado/modificado en el repositorio local hacia el repositorio global. El repositorio global almacena nuestro trabajo en la nube y es como el repositorio de referencia. Los proveedores de repositorios globales son: GitLab, GitHub, Bitbucket, entre otros
 6. `git pull`: actualizar el repositorio local con respecto al global
-7. `git reset --hard`: Es una función un poco riesgosa porque elimina todo los cambios que no hayan pasado por un commit. En el marco de este curso, vamos a usarlo en caso hagamos cambios en el repositorio remoto del curso y no tengamos derechos de autoría del mismo.
+7. `git reset --hard`:  elimina todo los cambios que no hayan pasado por un commit. En el marco de este curso, vamos a usarlo en caso hagamos cambios en el repositorio remoto del curso y no tengamos derechos de autoría del mismo
 
 ## Referencias:
 
