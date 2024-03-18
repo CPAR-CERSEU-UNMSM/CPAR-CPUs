@@ -35,7 +35,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 <img src="./Figures_teaching/Pasted image 20240317001135.png" alt="drawing" width="400"/>
 
-13. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto1*. Elige un repositorio en blanco (abajo un ejemplo de como luce en GitHub). Para GitLab, elige el repositorio en blanco y algo similar a la figura de abajo se mostrará:
+13. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto1*. Elige un repositorio en blanco (abajo un ejemplo de como luce en GitHub).
 
 <img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="400"/>
 
