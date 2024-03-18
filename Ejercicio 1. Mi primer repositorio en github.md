@@ -22,17 +22,30 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 6. Luego de usar el comando `git add`, volver a revisar el estado del repositorio con `git status`. Algo ha cambiado, **¿puede explicar qué ha cambiado?** **Dentro del flujo de trabajo de git, ¿dónde se encuentra el archivo text1.txt?**. (Tip: las opciones son: working tree, área de preparación o repositorio local)
 7. Empezar a escribir la historia de tu repositorio tomando una foto instantánea de este cambio. Para eso usar el comando `git commit -m "MENSAJE"`. Recuerda que mientras más explicito sea el MENSAJE, mejor será la historia del repostorio. Una vez hecho esto, verificar el status del repositorio  con `git status`. **¿Algo ha cambiado? Describa sus observaciones. ¿Están todos los componentes de git al día?**
 8. Los cambios elaborados sólo se han hecho de manera local, para poder guardarlos en la nube o en un repositorio remoto, debemos crear una cuenta en [GitHub](https://github.com) o [GitLab](https://gitlab.com/users/sign_in) o [Bitbucket](https://bitbucket.org).
-9. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto1*. Elige un repositorio en blanco y algo similar a la figura de abajo se mostrará:
+9. Antes de sincronizar nuestro repositorio local con el global debemos crear un *personal token* en github para que github reconozca que somos nosotros los dueños de ambos repositorios.
+10. Para crear el **token**, debemos ir a los setting de nuestra página de github recién creada.  
 
-<img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240317000532.png" alt="drawing" width="400"/>
 
-11. Colocar el nombre, una descripción, elige hacerlo público, y luego sin README. Finalmente crear el repositorio.
-12. Una vez creado, conectarlo al repositorio local siguiendo los pasos indicados en la misma web. Primero, configurar el repositorio local para conectarse al repositorio remoto:
+11. Luego, en la opción *Developer settings*, buscar dentro de *Personal access tokens* la opción *Tokens (classic)*
 
-<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240317000840.png" alt="drawing" width="400"/>
 
-13. Seguir lo pasos para connectar ambos repositorios
+12. Una vez encontrada la opción, general un nuevo token y copiar el código que aparece pues este aparecerá solo una vez. Usen el token cuando sea necesario. 
 
-<img src="./Figures_teaching/Pasted image 20240310001937.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240317001135.png" alt="drawing" width="400"/>
 
-14. Finalmente, utilizar `git push`  para sincronizar los cambios en ambos repositorios y revisar el status con `git status`. **¿Qué diferencias hay ahora?**
+13. Una vez creada la cuenta, crear un repositorio remoto con el nombre *proyecto1*. Elige un repositorio en blanco (abajo un ejemplo de como luce en github). Para gitlab, elige el repositorio en blanco y algo similar a la figura de abajo se mostrará:
+
+<img src="./Figures_teaching/Pasted image 20240310001819.png" alt="drawing" width="400"/>
+
+14. Colocar el nombre, una descripción, elige hacerlo público y sin README y crear el repositorio.
+15. Una vez creado, conectarlo al repositorio local siguiendo los pasos indicados en la misma web. Primero, configurar el repositorio local para conectarse al repositorio remoto:
+
+<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="400"/>
+
+16. Seguir lo pasos para connectar ambos repositorios
+
+<img src="./Figures_teaching/Pasted image 20240310001937.png" alt="drawing" width="400"/>
+
+17. Finalmente, utilizar `git push`  para sincronizar los cambios en ambos repositorios y revisar el status con `git status`. **Qué diferencias hay ahora?**
