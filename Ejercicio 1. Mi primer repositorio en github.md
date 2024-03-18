@@ -42,10 +42,10 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 14. Colocar el nombre, una descripción, elige hacerlo público y sin README y crear el repositorio.
 15. Una vez creado, conectarlo al repositorio local siguiendo los pasos indicados en la misma web. Primero, configurar el repositorio local para conectarse al repositorio remoto:
 
-<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="400"/>
+<img src="./Figures_teaching/Pasted image 20240310001929.png" alt="drawing" width="700"/>
 
 16. Seguir lo pasos para connectar ambos repositorios
 
-<img src="./Figures_teaching/Pasted image 20240310001937.png" alt="drawing" width="400"/>
+<img src="./Figures_teaching/Pasted image 20240310001937.png" alt="drawing" width="700"/>
 
 17. Finalmente, utilizar `git push`  para sincronizar los cambios en ambos repositorios y revisar el status con `git status`. **¿Qué diferencias hay ahora?**
