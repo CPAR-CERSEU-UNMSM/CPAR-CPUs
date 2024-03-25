@@ -38,7 +38,7 @@ make
 
 4. Antes de ejecutar, tenemos que asegurarnos que `cmake` esté instalado. Probar primero en la consola el comando `cmake ..`. En caso no esté instalado, obtendremos un error como se muestra en la figura. De ser así, instalarlo con el comando `sudo apt install cmake`
 
-<img src="./Figures_teaching/Pasted image 20240325114034.png.png" alt="drawing" width="800"/>
+<img src="./Figures_teaching/Pasted image 20240325114034.png" alt="drawing" width="800"/>
 
 5. Luego vamos a crear otro archivo denominado `run.sh` usando la función `nano` y lo ejecutamos con el comando `sh run.sh`
 
