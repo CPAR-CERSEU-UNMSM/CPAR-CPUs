@@ -45,11 +45,11 @@ $$
 
 ### A. Calcular el tiempo de ejecución base ($T_{base}$)
 
-1.  El siguiente archivo fuente `vector.cpp` presenta una suma y multiplicación de dos vectores (`v1` y `v2`) producidos de forma aleatoria y definidos como punto flotante en las líneas 11-21.
+1. El siguiente archivo fuente `vector.cpp` presenta una suma y multiplicación de dos vectores (`v1` y `v2`) producidos de forma aleatoria y definidos como punto flotante (función `std::vector<float>`).
 2. El tamaño de los vectores (`vsize`) es 1000 y vamos a repetir la multiplicación 200 veces (`repetitions`).
-3. Guardamos el resultado de la suma y la multiplicación en los vectores `v3` y `v4` que son primero producidos en las líneas 25-27.
-4. La suma y multiplicación de los vectores `v1` y `v2` se ejecuta en las líneas 33-35.
-5. En las líneas 37-38 visualizamos el valor de los vectores `v3` y `v4` mediante el comando `std::cout`.
+3. Guardamos el resultado de la suma y la multiplicación en los vectores `v3` y `v4` que son primero producidos (`std::vector<float> v3(vsize);` y `std::vector<float> v4(vsize);`).
+4. La suma y multiplicación de los vectores `v1` y `v2` se ejecuta con las funciones `v3[i] = v1[i] + v2[i]` y `v4[i] = v1[i] * v2[i]`.
+5. Visualizamos el valor de los vectores `v3` y `v4` mediante el comando `std::cout`.
 
 ```c++
 #include <cstdio>
@@ -103,7 +103,7 @@ int main(){
 
 ### B. Calcular el tiempo optimizado 1 ($T^1_{optimizado}$)
 
-1. El siguiente ejercicio presenta el mismo código que `vector.cpp` con la diferencia que estamos activando el la opción `#pragma omp parallel for` (paralelización por _threads_ o hilos) en la línea 23. El nuevo archivo fuente es llamado ahora `vector_1.cpp`
+1. El siguiente ejercicio presenta el mismo código que `vector.cpp` con la diferencia que estamos activando el la opción `#pragma omp parallel for` (paralelización por _threads_ o hilos). El nuevo archivo fuente es llamado ahora `vector_1.cpp`
 2. El objetivo es ver el incremento del rendimiento debido a una paralelización por threads para este ejemplo simple.
 3. Para ello, tenemos que ejecutar los mismos pasos anteriores.
 
@@ -159,7 +159,7 @@ int main(){
 
 ### C. Calcular el tiempo optimizado 2 ($T^2_{optimizado}$)
 
-1. El siguiente ejercicio presenta el mismo código que `vector.cpp` con la diferencia que estamos activando el la opción `#pragma omp simd` (paralelización por instrucciones SIMD) en la línea 32. El nuevo archivo fuente es llamado ahora `vector_2.cpp`
+1. El siguiente ejercicio presenta el mismo código que `vector.cpp` con la diferencia que estamos activando el la opción `#pragma omp simd` (paralelización por instrucciones SIMD). El nuevo archivo fuente es llamado ahora `vector_2.cpp`
 2. El objetivo es ver el incremento del rendimiento debido a una paralelización por instrucciones SIMD.
 3. Para ello, tenemos que ejecutar los mismos pasos anteriores. 
 
