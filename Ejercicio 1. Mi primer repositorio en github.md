@@ -68,3 +68,35 @@ Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras cre
 
 4. Abrir esta carpeta y abrir la terminal dentro de esta carpeta. En esta carpeta, ejecutar el siguiente comando `sudo ./VBoxLinuxAdditions.run`. 
 5. Finalmente, reiniciar el virtual machine y las opciones de copiar y pegar quedarán habilitadas.
+
+### Paso alternativo en caso git push con http no funcione - SSH
+
+Existen dos formas para sincronizar en repositorio remoto con un repositorio local. Por el momento, hemos utilizado el protocolo `http`. Sin embargo, al ser un protocolo bastante difundido, corre el riesgo de ser interceptado o cambiado durante el proceso de sincronización. Para datos o códigos sensibles, se puede utilizar el protocolo alternativo `ssh`. `ssh` (Secure Shell) es una protocolo encriptado que garantiza que nadie intercepte tus datos, de manera que se ofrece una transferencia de información entre repositorios más eficiente y segura. El protocolo por defecto de github es `http`, pero nosotros podemos forzar usar un protocolo `ssh` del siguiente modo:
+
+1. Primero vamos a verificar si en nuestro sistema hay una llave ssh instalada de forma local. Para ello, en el terminal ejecutar el comando `cd ~/.ssh` y luego con `ls -la` verificar el contenido de la carpeta ssh:
+
+<img src="./Figures_teaching/Pasted image 20240324232929.png" alt="drawing" width="700"/>
+
+2. Dado que estamos buscando dos archivos del tipo `id_rsa` y `id_rsa.pub`. Dado que no lo tenemos instalado, debemos instalarlo ejecutando el comando `ssh-keygen -t rsa -b 4096 -C "lucianagoku@hotmail.com"` y hacer enter + enter + enter sin la necesidad de configurar o escribir nada cuando haya preguntas o acciones para realizar: 
+
+<img src="./Figures_teaching/Pasted image 20240324233445.png" alt="drawing" width="700"/>
+
+3. Luego de ejecutar el paso dos, y al revisar el contenido de la carpeta ssh, veremos los archivos deseaos que se han creado (`id_rsa` y `id_rsa.pub`). El archivo de extensión `.pub` es un archivo de domino público que puede ser compartida.
+
+<img src="./Figures_teaching/Pasted image 20240324233640.png" alt="drawing" width="700"/>
+
+4. El archivo de extensión `.pub` es un archivo de domino público que puede ser compartida. Con el comando `cat id_rsa.pub`, abrimos el archivo y copiamos su contenido para ser guardado en nuestro perfil de github. 
+
+<img src="./Figures_teaching/Pasted image 20240324234024.png" alt="drawing" width="700"/>
+
+5. En nuestro perfil de github, debemos dirigirnos a la configuración del perfil. 
+
+<img src="./Figures_teaching/Pasted image 20240324231342.png" alt="drawing" width="700"/>
+
+6. Dentro de las opciones de la configuración, ir a la opción denominada *SSH and GPG keys*. En esta opción hacer click en *New SSH key*
+
+<img src="./Figures_teaching/Pasted image 20240324234422.png" alt="drawing" width="700"/>
+
+7. Finalmente, se añade un nombre y se pega la clave pública:
+
+<img src="./Figures_teaching/Pasted image 20240324234609.png" alt="drawing" width="700"/>
