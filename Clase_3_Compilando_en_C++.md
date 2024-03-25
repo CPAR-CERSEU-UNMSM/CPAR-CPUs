@@ -28,7 +28,7 @@ int main()
     2) El flag `-o` indica que luego de éste sigue el nombre del ejecutable o archivo binario y su ubicación (en caso no se encuentre en nuestra misma carpeta de trabajo). En nuestro caso, el nombre del ejecutable es `hello`.
     3) Finalmente, se coloca el nombre y ubicación del archivo fuente que en nuestro caso es `hello_A.cpp`.
 
-6. Para ejecutar nuestro archivo binario, usamos el comando `/.hello`. Al completar la ejecución, veremos que aparece en nuestra carpeta de trabajo un archivo nuevo llamado `hello`:
+6. Para ejecutar nuestro archivo binario, usamos el comando `/.hello`. Al completar la ejecución, veremos que en nuestra carpeta de trabajo se crea el archivo binario correspondiente llamado `hello`:
 
 <img src="./Figures_teaching/Pasted image 20240325001600.png" alt="drawing" width="700"/>
 
