@@ -1,4 +1,4 @@
-# test
+# Compilando en C++
 
 ## Ejemplo 1: Hello World in C
 
