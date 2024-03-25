@@ -1,7 +1,7 @@
 # Computación Paralela aplicada a CPUs
 
-1. [Clase 1. Introducción a comandos básicos de Linux con una máquina virtual](Clase%201.%20Introducci%C3%B3n%20a%20comandos%20b%C3%A1sicos%20de%20Linux%20con%20un%20virtual%20machine.md)
-2. [Clase 2. Introducción al sistema de control de versiones GIT](Clase%202.%20Introducci%C3%B3n%20al%20sistema%20de%20control%20de%20versiones%20GIT.md)
-3. [Ejercicio 1. Mi primer repositorio en GitHub](Ejercicio%201.%20Mi%20primer%20repositorio%20en%20github.md)
-4. Clase 3. Compilando en C++ 
+1. [Clase 1. Introducción a comandos básicos de Linux con una máquina virtual](Clase_1_Introduccion_a_comandos_basicos_de_Linux_con_un_virtual_machine.md)
+2. [Clase 2. Introducción al sistema de control de versiones GIT](Clase_2_Introduccion_al_sistema_de_control_de_versiones_GIT.md)
+3. [Ejercicio 1. Mi primer repositorio en GitHub](Ejercicio_1_Mi_primer_repositorio_en_Github.md)
+4. [Clase 3. Compilando en C++](Clase_3_Compilando_en_C++.md)
 5. Ejercicio Extra. Mandelbrot
