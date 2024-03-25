@@ -23,11 +23,14 @@ int main()
 
 <img src="./Figures_teaching/Pasted image 20240325001000.png" alt="drawing" width="700"/>
 
-5. Para compilar, usamos el comando `g++ -o hello hello_A.cpp`. Esta sintaxis usada tiene el siguiente formato, primero el compilador `g++`, el flag `-o` indica que luego de este sigue el nombre del ejecutable o archivo binario y su ubicación, en caso no se encuentre en nuestra misma carpeta de trabajo. En nuestro caso, el nombre del ejecutable es `hello`. Finalmente, se coloca el nombre y ubicación del archivo fuente que en nuestro caso es `hello_A.cpp`. Al ejecutar, veremos que aparece en nuestra carpeta de trabajo un archivo nuevo llamado `hello`:
+5. Para compilar, usamos el comando `g++ -o hello hello_A.cpp`. Este comando tiene el siguiente formato:
+    1) El compilador `g++`
+    2) El flag `-o` indica que luego de éste sigue el nombre del ejecutable o archivo binario y su ubicación (en caso no se encuentre en nuestra misma carpeta de trabajo). En nuestro caso, el nombre del ejecutable es `hello`.
+    3) Finalmente, se coloca el nombre y ubicación del archivo fuente que en nuestro caso es `hello_A.cpp`.
 
 <img src="./Figures_teaching/Pasted image 20240325001600.png" alt="drawing" width="700"/>
 
-6. Para ejecutar nuestro archivo binario, usamos el comando `/.hello`
+6. Para ejecutar nuestro archivo binario, usamos el comando `/.hello`. Al completar la ejecución, veremos que aparece en nuestra carpeta de trabajo un archivo nuevo llamado `hello`:
 
 ## Ejemplo 2: Calcular el Speedup
 
