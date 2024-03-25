@@ -49,3 +49,22 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 <img src="./Figures_teaching/Pasted image 20240310001937.png" alt="drawing" width="700"/>
 
 17. Finalmente, utilizar `git push`  para sincronizar los cambios en ambos repositorios y revisar el status con `git status`. **¿Qué diferencias hay ahora?**
+
+### Cómo pegar y copiar de Windows to Ubuntu
+
+Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras credenciales nombre de usuario y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y vice versa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
+
+1. Primero iremos a la configuración del virtual machine, *General*, *Advanced* y revisar si las opciones de *Shared Clipboard* y *Drag and Drop* están marcadas cómo **Bidireccionales**
+
+<img src="./Figures_teaching/Pasted image 20240324225127.png" alt="drawing" width="700"/>
+
+2. Luego, en la opción *Storage* debemos instalar nuestro **Virtual Box Guest Additions ISO**. Este se encuentra dentro de Program Files/Oracle/VirtualBox. 
+
+<img src="./Figures_teaching/Pasted image 20240324225722.png" alt="drawing" width="700"/>
+
+3. Luego, al abrir Ubuntu, encontraremos una nueva carpeta denominada **VBox_GAs** 
+
+<img src="./Figures_teaching/Pasted image 20240324230342.png" alt="drawing" width="700"/>
+
+4. Abrir esta carpeta y abrir la terminal dentro de esta carpeta. En esta carpeta, ejecutar el siguiente comando `sudo ./VBoxLinuxAdditions.run`. 
+5. Finalmente, reiniciar el virtual machine y las opciones de copiar y pegar quedarán habilitadas.
