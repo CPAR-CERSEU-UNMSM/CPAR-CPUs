@@ -19,7 +19,7 @@ int main()
 }
 ```
 
-4. Una vez creado el archivo fuente vamos a compilarlo. Para ello, usaremos el compilador `g++`. Para ello, primero, verificar si el compilador está instalado y qué versión está instalada con el comando `g++ --version`:
+4. Una vez creado el archivo fuente vamos a compilarlo. Para ello, usaremos el compilador `g++`. Como paso preliminar, vamos a verificar si el compilador está instalado y qué versión está instalada con el comando `g++ --version`:
 
 <img src="./Figures_teaching/Pasted image 20240325001000.png" alt="drawing" width="700"/>
 
