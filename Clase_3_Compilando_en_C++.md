@@ -48,7 +48,7 @@ $$
 4. La suma y multiplicación de los vectores `v1` y `v2` se ejecuta en las líneas 33-35.
 5. En las líneas 37-38 visualizamos el valor de los vectores `v3` y `v4` mediante el comando `std::cout`.
 
-```
+```c++
 #include <cstdio>
 #include <vector>
 #include <stdlib.h>
@@ -104,7 +104,7 @@ int main(){
 2. El objetivo es ver el incremento del rendimiento debido a una paralelización por threads para este ejemplo simple.
 3. Para ello, tenemos que ejecutar los mismos pasos anteriores.
 
-```
+```c++
 #include <cstdio>
 #include <vector>
 #include <stdlib.h>
@@ -160,7 +160,7 @@ int main(){
 2. El objetivo es ver el incremento del rendimiento debido a una paralelización por instrucciones SIMD.
 3. Para ello, tenemos que ejecutar los mismos pasos anteriores. 
 
-```
+```c++
 #include <cstdio>
 #include <vector>
 #include <stdlib.h>
