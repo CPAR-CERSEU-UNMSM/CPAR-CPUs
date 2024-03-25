@@ -20,11 +20,11 @@ int main()
 
 4. Una vez creado el archivo fuente vamos a compilarlo. Para ello, usaremos el compilador `g++`. Para ello, primero, verificar si el compilador está instalado y qué versión está instalada con el comando `g++ --version`:
 
-![[Pasted image 20240325001000.png]]
+<img src="./Figures_teaching/Pasted image 20240325001000.png" alt="drawing" width="700"/>
 
 5. Para compilar, usamos el comando `g++ -o hello hello_A.cpp`. Esta sintaxis usada tiene el siguiente formato, primero el compilador `g++`, el flag `-o` indica que luego de este sigue el nombre del ejecutable o archivo binario y su ubicación, en caso no se encuentre en nuestra misma carpeta de trabajo. En nuestro caso, el nombre del ejecutable es `hello`. Finalmente, se coloca el nombre y ubicación del archivo fuente que en nuestro caso es `hello_A.cpp`. Al ejecutar, veremos que aparece en nuestra carpeta de trabajo un archivo nuevo llamado `hello`:
 
-![[Pasted image 20240325001600.png]]
+<img src="./Figures_teaching/Pasted image 20240325001600.png" alt="drawing" width="700"/>
 
 6. Para ejecutar nuestro archivo binario, usamos el comando `/.hello`
 
@@ -95,7 +95,7 @@ int main(){
 6. Compilamos el archivo `vector.cpp` bajo el nombre `vector_sequencial`, usando el comando `g++ -o vector_sequencial vector.cpp`
 7. Lo que requerimos para este ejercicio no es el resultado de vector_sequencial sino el tiempo que requiere para ejecutar. Para obtener este valor, usamos el comando `time ./vector_sequencial` y guardamos el tiempo de usuario: *User time = 0.211s*
 
-![[Pasted image 20240325003059.png]]
+<img src="./Figures_teaching/Pasted image 20240325003059.png" alt="drawing" width="700"/>
 
 ### B. Calcular el tiempo optimizado 1 ($T^1_{optimizado}$)
 
@@ -151,7 +151,7 @@ int main(){
 4. Compilamos el archivo `vector_1.cpp` bajo el nombre `vector_paralelo`, usando el comando `g++ -o vector_paralelo vector_1.cpp`
 5. Lo que requerimos para este ejercicio no es el resultado de vector_sequencial sino el tiempo que requiere para ejecutar. Para obtener este valor, usamos el comando `time ./vector_paralelo` y guardamos el tiempo de usuario: *User time = 0.185s*
 
-![[Pasted image 20240325004014.png]]
+<img src="./Figures_teaching/Pasted image 20240325004014.png" alt="drawing" width="700"/>
 
 ### C. Calcular el tiempo optimizado 2 ($T^2_{optimizado}$)
 
@@ -207,7 +207,7 @@ int main(){
 4. Compilamos el archivo `vector_2.cpp` bajo el nombre `vector_paralelo`, usando el comando `g++ -o vector_simd vector_2.cpp`
 5. Lo que requerimos para este ejercicio no es el resultado de vector_sequencial sino el tiempo que requiere para ejecutar. Para obtener este valor, usamos el comando `time ./vector_simd y guardamos el tiempo de usuario: *User time = 0.185s*
 
-![[Pasted image 20240325005305.png]]
+<img src="./Figures_teaching/Pasted image 20240325005305.png" alt="drawing" width="700"/>
 
 ### D. Calcular el Speedup1 y Speedup2
 
