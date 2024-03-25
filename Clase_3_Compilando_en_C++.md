@@ -4,9 +4,9 @@
 
 En este ejemplo, vamos a recordar como ejecutar un programa simple "Hello World".
 
-1. En nuestra terminal, vamos a crear un nuevo archivo usndo el comando`nano hello_A.cpp`. Este archivo fuente tendrá el programa C++ que deseamos compilar. En este caso, y a diferencia de los ejercicios anteriores, vamos a colocar la extensión típica de C++ que es `.cpp`
+1. En nuestra terminal, vamos a crear un nuevo archivo usando el comando`nano hello_A.cpp`. Este archivo fuente tendrá el programa C++ que deseamos compilar. En este caso, y a diferencia de los ejercicios anteriores, vamos a colocar la extensión típica de C++ que es `.cpp`
 2. Al inicio del archivo añadimos `#include <stdio.h>` para indicar al compilador que inserte el contenido de la librería estandar `stdio` en el archivo fuente que estamos creando.
-3. Finalmente escribimos el cuerpo del programa _hello world_ dentro de la funcion `int main()`. Esta función debe retornar un valor entero (`int` o _integer_) al final de la ejecución de la función `main`. Por ello, como buena práctica terminamos el código con `return 0;`. La función `printf` viene del término en inglés imprimir con formato (_"print formatted"_) e imprime un conjunto de caracteres (o _string_) en C++. Para mayor información, visitar el siguiente [enlace](https://cplusplus.com/reference/cstdio/printf/).
+3. Finalmente escribimos el cuerpo del programa _hello world_ dentro de la funcion `int main()`. Esta función debe retornar un valor entero (`int` o _integer_) al final de la ejecución de la función `main`. Por ello, terminamos el código del programa con `return 0;`. La función `printf` viene del término en inglés imprimir con formato (_"print formatted"_) e imprime un conjunto de caracteres (o _string_) en C++. Para mayor información, visitar el siguiente [enlace](https://cplusplus.com/reference/cstdio/printf/).
 
 ```c++
 #include <stdio.h>
