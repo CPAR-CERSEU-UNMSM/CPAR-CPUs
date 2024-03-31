@@ -9,43 +9,59 @@
 
 <img src="./Figures_teaching/mandelbrot.png" alt="drawing" width="800"/>
 
-4. - Intel (Copyright Intel Corporation) tiene ya programado Mandelbrot en C y podemos usarlo para determinar el speedup de una aplicación más compleja que corre en serial y en paralelo.
+4. - Intel (Copyright Intel Corporation) tiene ya programado Mandelbrot en C y podemos usarlo para determinar el speedup de una aplicación más compleja que corre en serial y en paralelo. Pero primero debemos instalar **openAPI Base Toolkit** en nuestra máquina virtual. **openAPI Base Toolkit** incluye una serie de herramientas y librerías específicas para la computación de alta performacia en muchos tipos de arquitecturas [Intel-oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.77fyh4). Es completamente libre. 
 
+### Instalar one API en la máquina virtual
+
+1. Para instalar opeAPI en nuestro sistema, ingresamos primero a la página web siguiente [oneAPI-linux](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?operatingsystem=linux&distributions=aptpackagemanager).
+
+2. Seleccionar la opción APT Package Manager que es el manager de librerías en ubuntu. 
+
+<img src="./Figures_teaching/Pasted image 20240330220639.png" alt="drawing" width="800"/>
+
+3. Finalmente seguir las opciones paso a paso que se encuentran en la página web. 
+
+<img src="./Figures_teaching/Pasted image 20240330223059.png" alt="drawing" width="800"/>
+
+5. **Nota**: No hay necesidad de registrarse para poder usar **openAPI Base Toolkit**. Sin embargo, **openAPI Base Toolkit** requiere aproximadamente 13GB de espacio en el disco virtual, así que debemos asegurarnos que tenemos el espacio necesario. Adicionalmente, cada vez que se vaya a usar alguno de los paquetes de **openAPI Base Toolkit**, debemos usar el comando siguiente para garantizar que estos paquetes estén activos:
+
+```
+source /opt/intel/oneapi/setvars.sh
+```
 ### Calcular el speedup de la aplicación Mandelbrot
 
-1. Clonar el repositorio de Intel:
+1. Una vez instalado **openAPI Base Toolkit** y activado los paquetes (ver nota anterior), clonar el repositorio de Intel:
 
 ```
 git clone https://github.com/oneapi-src/oneAPI-samples.git
 ```
 
-2. Ir a la locación del código MandelBrot:
+2. Ir a la locación del código MandelBrot (tomar en cuenta que la ruta es de referencia):
 
 ```
-cd ~/oneAPI-samples/DirectProgramming/C++SYCL/CombinationalLogic/mandelbrot
+cd ~/oneAPI-samples/DirectProgramming/C++/CombinationalLogic/MandelbrotOMP
 ```
 
 El archivo fuente de Mandelbrot se encuentra en la carpeta `src` y se denomina `mandel.hpp`. El archivo `main.cpp` es también importante y contiene las instrucciones para correr mandelbrot de forma serial o paralela y contabilizar los tiempos.
 
-3. Crear un archivo denominado `build.sh` usando la función `nano` y ejecutarlo usando el comando `sh build.sh`. 
+3. Dado que en /MandelbrotOMP ya tenemos creado el archivo *Makefile* solo tenemos que ejecutarlo con el comando `make`
 
-```
-mkdir build
-cd build
-cmake ..
-make
-```
+<img src="./Figures_teaching/Pasted image 20240330235135.png" alt="drawing" width="800"/>
 
-4. Antes de ejecutar, tenemos que asegurarnos que `cmake` esté instalado. Probar primero en la consola el comando `cmake ..`. En caso no esté instalado, obtendremos un error como se muestra en la figura. De ser así, instalarlo con el comando `sudo apt install cmake`
+Podría identificar qué compilador se está/están usando para este ejercicio y qué archivo/archivos/carpetas se están creando al ejecutar el comando `make`?
 
-<img src="./Figures_teaching/Pasted image 20240325114034.png" alt="drawing" width="800"/>
+4. Como se podrán percatar con el comando `ls`, se ha creado una nueva carpeta *release* y dentro de esta carpeta se tiene un ejecutable llamado *Mandelbrot*. Para ejecutar este achivo, usamos el comando `./release/Mandelbrot`. Al ejecutar, observamos algunas opciones de ejecución de Mandelbrot:
 
-5. Luego vamos a crear otro archivo denominado `run.sh` usando la función `nano` y lo ejecutamos con el comando `sh run.sh`
+<img src="./Figures_teaching/Pasted image 20240330235643.png" alt="drawing" width="800"/>
 
-```
-cd build
-make run
-```
+5. Elijan la opción 1 para obtener el tiempo de ejecución serial
 
-6. Visualizar los resultados
-7. Calcular el Speedup
+<img src="./Figures_teaching/Pasted image 20240330235749.png" alt="drawing" width="800"/>
+
+6. Volver a ejecutar esta vez probando las otras opciones y calcular el Speedup usando la ecuación de la clase anterior:
+$$
+Speedup = \frac{T_{base}}{T_{optimizado}}
+$$
+7. El resultado de los fractales se puede visualizar como archivo png en la carpeta *MandelbrotOMP*
+
+<img src="./Figures_teaching/Pasted image 20240331000052.png" alt="drawing" width="800"/>
