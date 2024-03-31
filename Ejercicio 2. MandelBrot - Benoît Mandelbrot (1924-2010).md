@@ -59,9 +59,11 @@ Podría identificar qué compilador se está/están usando para este ejercicio y
 <img src="./Figures_teaching/Pasted image 20240330235749.png" alt="drawing" width="800"/>
 
 6. Volver a ejecutar esta vez probando las otras opciones y calcular el Speedup usando la ecuación de la clase anterior:
+
 $$
 Speedup = \frac{T_{base}}{T_{optimizado}}
 $$
+
 7. El resultado de los fractales se puede visualizar como archivo png en la carpeta *MandelbrotOMP*
 
 <img src="./Figures_teaching/Pasted image 20240331000052.png" alt="drawing" width="800"/>
