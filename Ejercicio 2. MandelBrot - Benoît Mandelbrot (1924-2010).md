@@ -1,4 +1,4 @@
-# Ejercicio 2. MandelBrot - Benoît Mandelbrot (1924-2010)
+# Ejercicio_2_MandelBrot_Benoît_Mandelbrot
 
 1. Problema matemático relacionado a los fractales o a patrones geométricos que se repiten cuando se hace zoom en la figura.
 2. El ejercicio es simple, que pasa si nosotros elevamos un número al cuadrado, y ese número al cuadrado. Si el número es mayor a 1 en algún momento explota o tendemos al infinito. Si el número es menor a 1, el resultado se hace más chiquito y tiene a cero. Podríamos decir que el primer caso es una repetición no estable porque explota en algun momento. En cambio al segunda es estable porque tiende a un solo número y este número cero es conocido.
