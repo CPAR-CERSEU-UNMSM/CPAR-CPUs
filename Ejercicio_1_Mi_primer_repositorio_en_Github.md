@@ -73,15 +73,15 @@ Para poder realizar `git push` con el protocolo `https`, necesitamos nuestras cr
 
 Existen dos formas para sincronizar un repositorio remoto con un repositorio local. Hasta ahora, hemos utilizado el protocolo `https`. Alternativamente se puede utilizar el protocolo `ssh` (Secure Shell). `ssh` es un protocolo encriptado que ofrece una transferencia de información más eficiente y segura entre repositorios. El protocolo por defecto de GitHub es `https`, pero nosotros podemos usar alternativamente `ssh` del siguiente modo:
 
-1. Primero vamos a verificar si en nuestro sistema de archivos hay una llave ssh, es decir, archivos del tipo `id_rsa` y `id_rsa.pub`. Para ello, en el terminal ejecutar el comando `cd ~/.ssh` y luego con `ls -la` verificar el contenido de la carpeta ssh:
+1. Primero vamos a verificar si en nuestro sistema de archivos hay un par de llaves ssh, es decir, un archivo que contiene la llave privada (`id_rsa`) y otro que contiene la llave pública (`id_rsa.pub`). Para ello, en el terminal ejecutar el comando `cd ~/.ssh` y luego con `ls -la` verificar el contenido de la carpeta ssh:
 
 <img src="./Figures_teaching/Pasted image 20240324232929.png" alt="drawing" width="700"/>
 
-2. Dado que en nuestro caso tales archivos no están presentes, debemos crearlos ejecutando el comando `ssh-keygen -t rsa -b 4096 -C "miemail@servidor.com"` y hacer ENTER + ENTER + ENTER sin la necesidad de configurar o escribir nada cuando haya preguntas o acciones para realizar: 
+2. Dado que en nuestro caso tales archivos no están presentes, debemos crearlos ejecutando el comando `ssh-keygen -t rsa -b 4096 -C "miemail@midominio.com"` y hacer ENTER + ENTER + ENTER sin la necesidad de configurar o escribir nada cuando haya preguntas o acciones para realizar: 
 
 <img src="./Figures_teaching/Pasted image 20240324233445.png" alt="drawing" width="700"/>
 
-3. Luego de ejecutar el paso dos, y al revisar el contenido de la carpeta ssh, veremos los archivos deseaos que se han creado (`id_rsa` y `id_rsa.pub`). El archivo de extensión `.pub` es un archivo de domino público que puede ser compartida.
+3. Revisar nuevamente el contenido de la carpeta `~/.ssh`. Ahora veremos que los archivos deseados se han creado (`id_rsa` y `id_rsa.pub`). El archivo de extensión `.pub` es la llave pública, la cual que puede ser compartida.
 
 <img src="./Figures_teaching/Pasted image 20240324233640.png" alt="drawing" width="700"/>
 
