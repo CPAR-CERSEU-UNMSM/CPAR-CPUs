@@ -46,7 +46,9 @@ El archivo fuente de Mandelbrot se encuentra en la carpeta `src` y se denomina
 
 <img src="./Figures_teaching/Pasted image 20240330235135.png" alt="drawing" width="800"/>
 
-Podría identificar qué compilador se está/están usando para este ejercicio y qué archivo/archivos/carpetas se están creando al ejecutar el comando `make`?
+Preguntas:
+- **¿Podría identificar qué compilador se está/están usando para este ejercicio?**
+- **¿Qué archivos y/o carpetas se están creando al ejecutar el comando `make`?**
 
 4. Como se podrán percatar con el comando `ls`, se ha creado una nueva carpeta *release* y dentro de esta carpeta se tiene un ejecutable llamado *Mandelbrot*. Para ejecutar este achivo, usamos el comando `./release/Mandelbrot`. Al ejecutar, observamos algunas opciones de ejecución de Mandelbrot:
 
