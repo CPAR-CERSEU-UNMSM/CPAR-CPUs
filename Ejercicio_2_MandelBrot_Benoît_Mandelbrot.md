@@ -42,7 +42,7 @@ cd oneAPI-samples/DirectProgramming/C++/CombinationalLogic/MandelbrotOMP
 
 El archivo fuente de Mandelbrot se encuentra en la carpeta `src` y se denomina `mandel.hpp`. El archivo `main.cpp` es también importante y contiene las instrucciones para ejecutar el programa de forma serial o paralela y contabilizar los tiempos.
 
-3. Dado que en /MandelbrotOMP ya tenemos creado el archivo *Makefile* solo tenemos que ejecutarlo con el comando `make`
+3. Dado que en la carpeta "MandelbrotOMP" ya tenemos creado el archivo *Makefile* solo tenemos que ejecutarlo con el comando `make`
 
 <img src="./Figures_teaching/Pasted image 20240330235135.png" alt="drawing" width="800"/>
 
