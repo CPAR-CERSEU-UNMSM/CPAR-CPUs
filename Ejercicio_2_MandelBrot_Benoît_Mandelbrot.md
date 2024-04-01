@@ -2,14 +2,14 @@
 
 1. Problema matemático relacionado a los fractales o a patrones geométricos que se repiten cuando se hace zoom en la figura.
 2. El ejercicio es simple: ¿qué pasa si nosotros elevamos un número al cuadrado, y ese número al cuadrado? Si el número es mayor a 1 en algún momento explota o tendemos al infinito. Si el número es menor a 1, el resultado se hace más pequeño y tiene a cero. Podríamos decir que el primer caso es una repetición no estable porque explota en algun momento. La segunda, en cambio, es estable porque tiende a un solo número y este número cero es conocido.
-3. 
+
 <img src="./Figures_teaching/mandelbrot1.png" alt="drawing" width="800"/>
 
-4. Mandelbrot quería mapear qué áreas son estables y cuales inestables para ver si existe algún patrón, y también si son simétricas o no. Mandelbrot encontró lo siguiente: **áreas en el sector negro son áreas estables y las áreas de colores son no estables**.
+3. Mandelbrot quería mapear qué áreas son estables y cuales inestables para ver si existe algún patrón, y también si son simétricas o no. Mandelbrot encontró lo siguiente: **áreas en el sector negro son áreas estables y las áreas de colores son no estables**.
 
 <img src="./Figures_teaching/mandelbrot.png" alt="drawing" width="800"/>
 
-4. - Intel (Copyright Intel Corporation) tiene ya programado Mandelbrot en C y podemos usarlo para determinar el speedup de una aplicación más compleja que corre en serial y en paralelo. Pero primero debemos instalar **openAPI Base Toolkit** en nuestra máquina virtual. **openAPI Base Toolkit** incluye una serie de herramientas y librerías específicas para la computación de alta performacia en muchos tipos de arquitecturas [Intel-oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.77fyh4). Es completamente libre. 
+4. Intel (Copyright Intel Corporation) tiene ya programado Mandelbrot en C y podemos usarlo para determinar el speedup de una aplicación más compleja que corre en serial y en paralelo. Pero primero debemos instalar **openAPI Base Toolkit** en nuestra máquina virtual. **openAPI Base Toolkit** incluye una serie de herramientas y librerías específicas para la computación de alta performacia en muchos tipos de arquitecturas [Intel-oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.77fyh4). Es completamente libre. 
 
 ### Instalar one API en la máquina virtual
 
