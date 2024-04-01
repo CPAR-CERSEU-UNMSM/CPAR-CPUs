@@ -52,13 +52,13 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 ### Cómo pegar y copiar de Windows to Ubuntu
 
-Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras credenciales nombre de usuario y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y vice versa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
+Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras credenciales nombre de usuario y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo Windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y vice versa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
 
-1. Primero iremos a la configuración del virtual machine, *General*, *Advanced* y revisar si las opciones de *Shared Clipboard* y *Drag and Drop* están marcadas cómo **Bidireccionales**
+1. Primero iremos a la configuración dela máquina virtual, *General*, *Advanced* y revisar si las opciones de *Shared Clipboard* y *Drag and Drop* están marcadas cómo **Bidireccionales**
 
 <img src="./Figures_teaching/Pasted image 20240324225127.png" alt="drawing" width="700"/>
 
-2. Luego, en la opción *Storage* debemos instalar nuestro **Virtual Box Guest Additions ISO**. Este se encuentra dentro de Program Files/Oracle/VirtualBox. 
+2. Luego, en la opción *Storage* debemos instalar nuestro **Virtual Box Guest Additions ISO**. Éste se encuentra dentro de *Program Files/Oracle/VirtualBox*. 
 
 <img src="./Figures_teaching/Pasted image 20240324225722.png" alt="drawing" width="700"/>
 
@@ -67,11 +67,13 @@ Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras cre
 <img src="./Figures_teaching/Pasted image 20240324230342.png" alt="drawing" width="700"/>
 
 4. Abrir esta carpeta y abrir la terminal dentro de esta carpeta. En esta carpeta, ejecutar el siguiente comando `sudo ./VBoxLinuxAdditions.run`. 
-5. Finalmente, reiniciar el virtual machine y las opciones de copiar y pegar quedarán habilitadas.
+5. Finalmente, luego de reiniciar la máquina virtual, las opciones de copiar y pegar quedarán habilitadas.
 
 ### Paso alternativo en caso git push con http no funcione - SSH
 
-Existen dos formas para sincronizar en repositorio remoto con un repositorio local. Por el momento, hemos utilizado el protocolo `http`. Sin embargo, al ser un protocolo bastante difundido, corre el riesgo de ser interceptado o cambiado durante el proceso de sincronización. Para datos o códigos sensibles, se puede utilizar el protocolo alternativo `ssh`. `ssh` (Secure Shell) es una protocolo encriptado que garantiza que nadie intercepte tus datos, de manera que se ofrece una transferencia de información entre repositorios más eficiente y segura. El protocolo por defecto de github es `http`, pero nosotros podemos forzar usar un protocolo `ssh` del siguiente modo:
+Existen dos formas para sincronizar en repositorio remoto con un repositorio local. Por el momento, hemos utilizado el protocolo `http`. Sin embargo, al ser un protocolo bastante difundido, corre el riesgo de ser interceptado o cambiado durante el proceso de sincronización. 
+
+Para datos o códigos sensibles, se puede utilizar el protocolo alternativo `ssh` (Secure Shell). `ssh` es un protocolo encriptado que garantiza que nadie intercepte los datos, de manera que se ofrece una transferencia de información más eficiente y segura entre repositorios. El protocolo por defecto de GitHub es `http`, pero nosotros podemos forzar usar un protocolo `ssh` del siguiente modo:
 
 1. Primero vamos a verificar si en nuestro sistema hay una llave ssh instalada de forma local. Para ello, en el terminal ejecutar el comando `cd ~/.ssh` y luego con `ls -la` verificar el contenido de la carpeta ssh:
 
