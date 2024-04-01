@@ -40,7 +40,7 @@ git clone https://github.com/oneapi-src/oneAPI-samples.git
 cd oneAPI-samples/DirectProgramming/C++/CombinationalLogic/MandelbrotOMP
 ```
 
-El archivo fuente de Mandelbrot se encuentra en la carpeta `src` y se denomina `mandel.hpp`. El archivo `main.cpp` es también importante y contiene las instrucciones para correr mandelbrot de forma serial o paralela y contabilizar los tiempos.
+El archivo fuente de Mandelbrot se encuentra en la carpeta `src` y se denomina `mandel.hpp`. El archivo `main.cpp` es también importante y contiene las instrucciones para ejecutar el programa de forma serial o paralela y contabilizar los tiempos.
 
 3. Dado que en /MandelbrotOMP ya tenemos creado el archivo *Makefile* solo tenemos que ejecutarlo con el comando `make`
 
