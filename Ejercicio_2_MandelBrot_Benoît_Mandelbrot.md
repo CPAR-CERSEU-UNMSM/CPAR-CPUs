@@ -34,10 +34,10 @@ source /opt/intel/oneapi/setvars.sh
 git clone https://github.com/oneapi-src/oneAPI-samples.git
 ```
 
-2. Ir a la locación del código MandelBrot (tomar en cuenta que la ruta es de referencia):
+2. Ir a la locación del código MandelBrot:
 
 ```
-cd ~/oneAPI-samples/DirectProgramming/C++/CombinationalLogic/MandelbrotOMP
+cd oneAPI-samples/DirectProgramming/C++/CombinationalLogic/MandelbrotOMP
 ```
 
 El archivo fuente de Mandelbrot se encuentra en la carpeta `src` y se denomina `mandel.hpp`. El archivo `main.cpp` es también importante y contiene las instrucciones para correr mandelbrot de forma serial o paralela y contabilizar los tiempos.
