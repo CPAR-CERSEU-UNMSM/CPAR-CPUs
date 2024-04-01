@@ -52,7 +52,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 ### Cómo pegar y copiar de Windows to Ubuntu
 
-Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras credenciales, nombre de usuario, y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo Windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y viceversa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
+Para poder realizar `git push` con el protocolo `https`, necesitamos nuestras credenciales, nombre de usuario, y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo Windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y viceversa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
 
 1. Primero iremos a la configuración de la máquina virtual, *General*, *Advanced* y revisar si las opciones de *Shared Clipboard* y *Drag and Drop* están marcadas cómo **Bidireccionales**
 
@@ -69,11 +69,9 @@ Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras cre
 4. Abrir esta carpeta y abrir la terminal dentro de esta carpeta. En esta carpeta, ejecutar el siguiente comando `sudo ./VBoxLinuxAdditions.run`. 
 5. Finalmente, luego de reiniciar la máquina virtual, las opciones de copiar y pegar quedarán habilitadas.
 
-### Paso alternativo en caso "git push" con http no funcione - SSH
+### Paso alternativo en caso "git push" con https no funcione - SSH
 
-Existen dos formas para sincronizar un repositorio remoto con un repositorio local. Por el momento, hemos utilizado el protocolo `http`. Sin embargo, al ser `http` un protocolo bastante difundido, corre el riesgo de ser interceptado o cambiado durante el proceso de sincronización. 
-
-Para datos o códigos sensibles, se puede utilizar el protocolo alternativo `ssh` (Secure Shell). `ssh` es un protocolo encriptado que garantiza que nadie intercepte los datos, de manera que se ofrece una transferencia de información más eficiente y segura entre repositorios. El protocolo por defecto de GitHub es `http`, pero nosotros podemos forzar usar un protocolo `ssh` del siguiente modo:
+Existen dos formas para sincronizar un repositorio remoto con un repositorio local. Hasta ahora, hemos utilizado el protocolo `https`. Alternativamente se puede utilizar el protocolo alternativo `ssh` (Secure Shell). `ssh` es un protocolo encriptado que ofrece una transferencia de información más eficiente y segura entre repositorios. El protocolo por defecto de GitHub es `http`, pero nosotros podemos forzar usar un protocolo `ssh` del siguiente modo:
 
 1. Primero vamos a verificar si en nuestro sistema hay una llave ssh instalada de forma local. Para ello, en el terminal ejecutar el comando `cd ~/.ssh` y luego con `ls -la` verificar el contenido de la carpeta ssh:
 
