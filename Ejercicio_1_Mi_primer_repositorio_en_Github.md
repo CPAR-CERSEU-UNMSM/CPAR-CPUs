@@ -52,7 +52,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 ### Cómo pegar y copiar de Windows to Ubuntu
 
-Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras credenciales nombre de usuario y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo Windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y vice versa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
+Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras credenciales, nombre de usuario, y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo Windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y vice versa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
 
 1. Primero iremos a la configuración dela máquina virtual, *General*, *Advanced* y revisar si las opciones de *Shared Clipboard* y *Drag and Drop* están marcadas cómo **Bidireccionales**
 
