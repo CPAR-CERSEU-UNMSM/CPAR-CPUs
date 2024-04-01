@@ -28,7 +28,7 @@ source /opt/intel/oneapi/setvars.sh
 ```
 ### Calcular el speedup de la aplicación Mandelbrot
 
-1. Una vez instalado **openAPI Base Toolkit** y activado los paquetes (ver nota anterior), clonar el repositorio de Intel:
+1. Una vez instalado **oneAPI Base Toolkit** y activado los paquetes (ver nota anterior), clonar el repositorio de Intel:
 
 ```
 git clone https://github.com/oneapi-src/oneAPI-samples.git
