@@ -9,7 +9,7 @@
 
 <img src="./Figures_teaching/mandelbrot.png" alt="drawing" width="800"/>
 
-4. Intel tiene ya programado Mandelbrot en C y podemos usarlo para determinar el speedup de una aplicación más compleja que se ejecuta en serial y en paralelo. Pero primero debemos instalar **oneAPI Base Toolkit** en nuestra máquina virtual. **oneAPI Base Toolkit** es complementamente libre e incluye una serie de herramientas y librerías específicas para la computación de alto rendimiento en muchos tipos de arquitecturas. Para ver más detalles, revisar: [Intel-oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.77fyh4). 
+4. Intel tiene ya programado Mandelbrot en C++ y podemos usarlo para determinar el speedup de una aplicación más compleja que se ejecuta en serial y en paralelo. Pero primero debemos instalar **oneAPI Base Toolkit** en nuestra máquina virtual. **oneAPI Base Toolkit** es complementamente libre e incluye una serie de herramientas y librerías específicas para la computación de alto rendimiento en muchos tipos de arquitecturas. Para ver más detalles, revisar: [Intel-oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.77fyh4). 
 
 ### Instalar oneAPI en la máquina virtual
 
