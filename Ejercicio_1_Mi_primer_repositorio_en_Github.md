@@ -71,7 +71,7 @@ Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras cre
 
 ### Paso alternativo en caso "git push" con http no funcione - SSH
 
-Existen dos formas para sincronizar un repositorio remoto con un repositorio local. Por el momento, hemos utilizado el protocolo `http`. Sin embargo, al ser un protocolo bastante difundido, corre el riesgo de ser interceptado o cambiado durante el proceso de sincronización. 
+Existen dos formas para sincronizar un repositorio remoto con un repositorio local. Por el momento, hemos utilizado el protocolo `http`. Sin embargo, al ser `http` un protocolo bastante difundido, corre el riesgo de ser interceptado o cambiado durante el proceso de sincronización. 
 
 Para datos o códigos sensibles, se puede utilizar el protocolo alternativo `ssh` (Secure Shell). `ssh` es un protocolo encriptado que garantiza que nadie intercepte los datos, de manera que se ofrece una transferencia de información más eficiente y segura entre repositorios. El protocolo por defecto de GitHub es `http`, pero nosotros podemos forzar usar un protocolo `ssh` del siguiente modo:
 
