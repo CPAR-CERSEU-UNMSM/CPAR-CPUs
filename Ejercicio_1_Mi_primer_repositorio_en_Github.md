@@ -77,7 +77,7 @@ Existen dos formas para sincronizar un repositorio remoto con un repositorio loc
 
 <img src="./Figures_teaching/Pasted image 20240324232929.png" alt="drawing" width="700"/>
 
-2. Dado que en nuestro caso tales archivos no están presentes, debemos crearlos ejecutando el comando `ssh-keygen -t rsa -b 4096 -C "miemail@midominio.com"` y hacer ENTER + ENTER + ENTER sin la necesidad de configurar o escribir nada cuando haya preguntas o acciones para realizar: 
+2. Dado que en nuestro caso tales archivos no están presentes, debemos crearlos ejecutando el comando `ssh-keygen -t rsa -b 4096 -C "miemail@midominio.com"` y presionar ENTER + ENTER + ENTER (esta última acción en el teclado significa que no hay necesidad de configurar o escribir nada cuando haya preguntas o acciones para realizar): 
 
 <img src="./Figures_teaching/Pasted image 20240324233445.png" alt="drawing" width="700"/>
 
