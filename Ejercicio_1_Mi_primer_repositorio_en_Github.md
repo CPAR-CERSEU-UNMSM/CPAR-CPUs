@@ -85,7 +85,7 @@ Existen dos formas para sincronizar un repositorio remoto con un repositorio loc
 
 <img src="./Figures_teaching/Pasted image 20240324233640.png" alt="drawing" width="700"/>
 
-4. El archivo de extensión `.pub` es un archivo de domino público que puede ser compartida. Con el comando `cat id_rsa.pub`, abrimos el archivo y copiamos su contenido para ser guardado en nuestro perfil de github. 
+4. Usando el comando `cat id_rsa.pub`, abrimos el archivo y copiamos su contenido para ser guardado en la configuración de nuestra cuenta en GitHub. 
 
 <img src="./Figures_teaching/Pasted image 20240324234024.png" alt="drawing" width="700"/>
 
