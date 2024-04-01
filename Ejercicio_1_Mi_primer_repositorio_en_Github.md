@@ -54,7 +54,7 @@ En este ejercicio aprenderemos los pasos básicos del sistema de control de vers
 
 Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras credenciales, nombre de usuario, y token recién creados. En el caso de que nuestras credenciales se encuentren en nuestra máquina host o sistema operativo Windows, debemos encontrar una forma de copiar y pegar texto de Windows a Ubuntu y viceversa. Si probamos **Ctrl + C**  o **Ctrl + V** vamos a ver que no funciona. Por ello tenemos que seguir algunos pasos adicionales.
 
-1. Primero iremos a la configuración dela máquina virtual, *General*, *Advanced* y revisar si las opciones de *Shared Clipboard* y *Drag and Drop* están marcadas cómo **Bidireccionales**
+1. Primero iremos a la configuración de la máquina virtual, *General*, *Advanced* y revisar si las opciones de *Shared Clipboard* y *Drag and Drop* están marcadas cómo **Bidireccionales**
 
 <img src="./Figures_teaching/Pasted image 20240324225127.png" alt="drawing" width="700"/>
 
