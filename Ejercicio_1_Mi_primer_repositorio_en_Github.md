@@ -73,11 +73,11 @@ Para poder realizar `git push` con el protocolo `https`, necesitamos nuestras cr
 
 Existen dos formas para sincronizar un repositorio remoto con un repositorio local. Hasta ahora, hemos utilizado el protocolo `https`. Alternativamente se puede utilizar el protocolo `ssh` (Secure Shell). `ssh` es un protocolo encriptado que ofrece una transferencia de información más eficiente y segura entre repositorios. El protocolo por defecto de GitHub es `https`, pero nosotros podemos usar alternativamente `ssh` del siguiente modo:
 
-1. Primero vamos a verificar si en nuestro sistema hay una llave ssh instalada de forma local. Para ello, en el terminal ejecutar el comando `cd ~/.ssh` y luego con `ls -la` verificar el contenido de la carpeta ssh:
+1. Primero vamos a verificar si en nuestro sistema de archivos hay una llave ssh, es decir, archivos del tipo `id_rsa` y `id_rsa.pub`. Para ello, en el terminal ejecutar el comando `cd ~/.ssh` y luego con `ls -la` verificar el contenido de la carpeta ssh:
 
 <img src="./Figures_teaching/Pasted image 20240324232929.png" alt="drawing" width="700"/>
 
-2. Dado que estamos buscando dos archivos del tipo `id_rsa` y `id_rsa.pub`. Dado que no lo tenemos instalado, debemos instalarlo ejecutando el comando `ssh-keygen -t rsa -b 4096 -C "lucianagoku@hotmail.com"` y hacer enter + enter + enter sin la necesidad de configurar o escribir nada cuando haya preguntas o acciones para realizar: 
+2. Dado que en nuestro caso tales archivos no están presentes, debemos crearlos ejecutando el comando `ssh-keygen -t rsa -b 4096 -C "miemail@servidor.com"` y hacer ENTER + ENTER + ENTER sin la necesidad de configurar o escribir nada cuando haya preguntas o acciones para realizar: 
 
 <img src="./Figures_teaching/Pasted image 20240324233445.png" alt="drawing" width="700"/>
 
