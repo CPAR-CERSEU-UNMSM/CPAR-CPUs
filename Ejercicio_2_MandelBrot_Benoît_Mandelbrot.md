@@ -13,7 +13,7 @@
 
 ### Instalar oneAPI en la máquina virtual
 
-1. Para instalar oneAPI en nuestro sistema, ingresamos primero siguiente página web que ya tiene por seleccionado el sistema operativo (Linux) _APT Package Manager_ (manager de software para Ubuntu) : https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?operatingsystem=linux&distributions=aptpackagemanager
+1. Para instalar oneAPI en nuestro sistema, ingresamos primero a la siguiente página de descarga que ya tiene seleccionado el instalador según el sistema operativo (Linux) y el manager de software (_APT Package Manager_ de Ubuntu): [Link de descarga](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?operatingsystem=linux&distributions=aptpackagemanager)
 
 <img src="./Figures_teaching/Pasted image 20240330220639.png" alt="drawing" width="800"/>
 
