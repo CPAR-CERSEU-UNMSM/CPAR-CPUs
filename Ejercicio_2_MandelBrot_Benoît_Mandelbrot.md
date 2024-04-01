@@ -13,15 +13,15 @@
 
 ### Instalar oneAPI en la máquina virtual
 
-1. Para instalar oneAPI en nuestro sistema, ingresamos primero a la siguiente página de descarga que ya tiene seleccionado el instalador según el sistema operativo (Linux) y el manager de software (_APT Package Manager_ de Ubuntu): [Link de descarga](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?operatingsystem=linux&distributions=aptpackagemanager)
+1. Para instalar oneAPI en nuestro sistema, ingresamos primero a la siguiente página de descarga que ya tiene seleccionado el instalador según el sistema operativo (Linux) y el manager de software (_APT Package Manager_ de Ubuntu): [link de descarga](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?operatingsystem=linux&distributions=aptpackagemanager)
 
 <img src="./Figures_teaching/Pasted image 20240330220639.png" alt="drawing" width="800"/>
 
-3. Finalmente seguir las opciones paso a paso que se encuentran en la página web. 
+2. Seguir paso a paso los comandos dados. 
 
 <img src="./Figures_teaching/Pasted image 20240330223059.png" alt="drawing" width="800"/>
 
-5. **Nota**: No hay necesidad de registrarse para poder usar **openAPI Base Toolkit**. Sin embargo, **openAPI Base Toolkit** requiere aproximadamente 13GB de espacio en el disco virtual, así que debemos asegurarnos que tenemos el espacio necesario. Adicionalmente, cada vez que se vaya a usar alguno de los paquetes de **openAPI Base Toolkit**, debemos usar el comando siguiente para garantizar que estos paquetes estén activos:
+**Nota**: no hay necesidad de registrarse para poder usar **oneAPI Base Toolkit**. Sin embargo, **oneAPI Base Toolkit** requiere aproximadamente 13GB de espacio en el disco virtual, así que debemos asegurarnos que tenemos el espacio necesario. Adicionalmente, cada vez que se vaya a usar alguno de los paquetes de **oneAPI Base Toolkit**, debemos usar el comando siguiente para garantizar que estos paquetes estén activos:
 
 ```
 source /opt/intel/oneapi/setvars.sh
