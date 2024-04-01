@@ -5,7 +5,7 @@
 
 <img src="./Figures_teaching/mandelbrot1.png" alt="drawing" width="800"/>
 
-3. Mandelbrot quería mapear qué áreas son estables y cuales inestables para ver si existe algún patrón, y también si son simétricas o no. Mandelbrot encontró lo siguiente: **áreas en el sector negro son áreas estables y las áreas de colores son no estables**.
+3. Mandelbrot quería mapear qué áreas son estables y cuales inestables para ver si existe algún patrón, y también si son simétricas o no. Mandelbrot encontró lo siguiente: **áreas en el sector negro son estables y las áreas de colores son no estables**.
 
 <img src="./Figures_teaching/mandelbrot.png" alt="drawing" width="800"/>
 
