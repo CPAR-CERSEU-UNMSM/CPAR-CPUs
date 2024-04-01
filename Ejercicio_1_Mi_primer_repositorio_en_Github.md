@@ -69,7 +69,7 @@ Para poder realizar `git push` con el protocolo `http`, necesitamos nuestras cre
 4. Abrir esta carpeta y abrir la terminal dentro de esta carpeta. En esta carpeta, ejecutar el siguiente comando `sudo ./VBoxLinuxAdditions.run`. 
 5. Finalmente, luego de reiniciar la máquina virtual, las opciones de copiar y pegar quedarán habilitadas.
 
-### Paso alternativo en caso git push con http no funcione - SSH
+### Paso alternativo en caso "git push" con http no funcione - SSH
 
 Existen dos formas para sincronizar en repositorio remoto con un repositorio local. Por el momento, hemos utilizado el protocolo `http`. Sin embargo, al ser un protocolo bastante difundido, corre el riesgo de ser interceptado o cambiado durante el proceso de sincronización. 
 
