@@ -91,7 +91,7 @@ Existen dos formas para sincronizar un repositorio remoto con un repositorio loc
 
 5. Ahora nos debemos dirigir a la configuración de nuestra cuenta en GitHub:
 
-<img src="./Figures_teaching/Pasted image 20240324231342.png" alt="drawing" width="700"/>
+<img src="./Figures_teaching/Pasted image 20240324231342.png" alt="drawing" width="400"/>
 
 6. Dentro de las opciones de la configuración, ir a la opción denominada *SSH and GPG keys*. En esta opción hacer click en *New SSH key*
 
