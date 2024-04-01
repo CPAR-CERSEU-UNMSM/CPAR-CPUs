@@ -89,7 +89,7 @@ Existen dos formas para sincronizar un repositorio remoto con un repositorio loc
 
 <img src="./Figures_teaching/Pasted image 20240324234024.png" alt="drawing" width="700"/>
 
-5. En nuestro perfil de github, debemos dirigirnos a la configuración del perfil. 
+5. Ahora nos debemos dirigir a la configuración de nuestra cuenta en GitHub:
 
 <img src="./Figures_teaching/Pasted image 20240324231342.png" alt="drawing" width="700"/>
 
